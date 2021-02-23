@@ -4,7 +4,7 @@
 using namespace std;
 int fact(int n){
     if(n<=1){
-        return 1;
+        return n;
     }
     else{
         return n*fact(n-1);
@@ -46,7 +46,7 @@ int Rank(string str){
 
 
 int main(){
-    string s="string";
+    string s="acb";
     cout<<"Rank of the given string is"<<Rank(s);
     return 0;
 
